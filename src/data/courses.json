@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Mathematics",
+        "instructor": "Dr. Smith"
+    },
+    {
+        "id": 2,
+        "name": "History",
+        "instructor": "Prof. Johnson"
+    },
+    {
+        "id": 3,
+        "name": "Physics",
+        "instructor": "Dr. Davis"
+    },
+    {
+        "id": 4,
+        "name": "Chemistry",
+        "instructor": "Prof. Williams"
+    },
+    {
+        "id": 5,
+        "name": "Biology",
+        "instructor": "Dr. Brown"
+    },
+    {
+        "id": 6,
+        "name": "Computer Science",
+        "instructor": "Prof. Adams"
+    },
+    {
+        "id": 7,
+        "name": "English Literature",
+        "instructor": "Dr. Miller"
+    }
+]
