@@ -1,6 +1,6 @@
 import styles from './studentList.module.css'
 import React from 'react';
-import studentsData from './../data/students.json'; // Adjust the import path based on your project structure
+import studentsData from './../data/students.json';
 
 function StudentList() {
   return (
@@ -20,3 +20,5 @@ function StudentList() {
 }
   
   export default StudentList;
+
+
