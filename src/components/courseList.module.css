@@ -1,22 +1,21 @@
-.course-list-container {
-    background-color: #f5f5f5;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  /* Style for list items */
-  .course-list-item {
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 10px;
-    padding: 10px;
-  }
-  
-  /* Style for the filter input field */
-  .filter-input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
+.course {
+  background-color: #ef89ef;
+  border: 1rem;
+  display: flex;
+  margin: 0px;
+  padding: 5px; 
+  border-top: 1rem;
+  border-radius: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #070404;
+  gap: 10px;
+}
+
+.course ul {
+  background-color: hsl(0, 9%, 67%);
+  padding: 4cm;
+  box-shadow: o,o,5px rgba(0, 0, 0, 3);
+  font-weight: bold;
+}

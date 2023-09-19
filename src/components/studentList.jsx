@@ -1,10 +1,10 @@
-import './studentList.module.css'
+import styles from './studentList.module.css'
 import React from 'react';
 import studentsData from './../data/students.json'; // Adjust the import path based on your project structure
 
 function StudentList() {
   return (
-    <div >
+    <div className={styles.student} >
       <h2>Student List</h2>
       <ul>
         {studentsData.map((student) => (
