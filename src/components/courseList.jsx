@@ -11,10 +11,10 @@ function CourseList() {
   
     return (
       <div className={styles.course}>
-        <h2>Course List</h2>
+        <h2>Course Information</h2>
         <input
           type="text"
-          placeholder="Search Instructor"
+          placeholder="Filter by Instructor"
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
         />
@@ -33,3 +33,5 @@ function CourseList() {
   }
   
   export default CourseList
+
+  
