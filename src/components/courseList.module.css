@@ -1,11 +1,8 @@
 .course {
-  background-color: #ef89ef;
+  background-color: hsl(0, 0%, 70%);
   border: 1rem;
   display: flex;
-  margin: 0px;
-  padding: 5px; 
-  border-top: 1rem;
-  border-radius: 1rem;
+  margin-top: 2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -15,7 +12,14 @@
 
 .course ul {
   background-color: hsl(0, 9%, 67%);
-  padding: 4cm;
-  box-shadow: o,o,5px rgba(0, 0, 0, 3);
+  flex-direction: column;
+  padding: 6rem;
   font-weight: bold;
+}
+
+
+.course h2{
+  background-color: #c5d2bb;
+  padding: 20px;
+  font-family: cursive;
 }

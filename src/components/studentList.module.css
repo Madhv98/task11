@@ -1,11 +1,8 @@
 .student {
-  background-color: #ef89ef;
+  background-color: hsl(0, 0%, 70%);
+  margin-top: 1rem;
   border: 1rem;
   display: flex;
-  margin: 0px;
-  padding: 5px; 
-  border-radius: 1rem;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #070404;
@@ -14,9 +11,14 @@
 
 .student ul {
   background-color: hsl(0, 9%, 67%);
-  padding: 4cm;
-  box-shadow: o,o,5px rgba(0, 0, 0, 3);
+  padding: 6rem;
   font-weight: bold;
 
+}
 
+
+.student h2 {
+  background-color: hsl(0, 27%, 41%);
+  padding: 20px;
+  font-weight: bold;
 }
